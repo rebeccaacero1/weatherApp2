@@ -57,7 +57,7 @@ input{
     font-family: inherit;
     width: calc(100% -90px);
 }
-h1.temp{
+h2.temp{
     margin: 0;
     margin-bottom: 0.3em;
 }

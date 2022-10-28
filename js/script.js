@@ -18,11 +18,11 @@ let weather = {
         .then((Response) => Response.json())
         .then((data) => this.displayweather(data));
     },
-    displayweather: function(){
+    displayweather: function(data){
         const{name} = data;
         const{icon,description} = data.weather[0];
         const{temp, humidity} = data.main;
         const{speed} = data.wind;
-        console.log(name);
+        console.log(name, icon, description, temp, humidity, speed);
     }
 }
