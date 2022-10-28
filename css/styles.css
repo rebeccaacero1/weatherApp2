@@ -68,8 +68,8 @@ h1.temp{
 .description{
     text-transform: capitalize;
 }
-.weather.loading{
+/* .weather.loading{
     visibility: hidden;
     max-height: 20px;
     position: relative;
-}
+} */
