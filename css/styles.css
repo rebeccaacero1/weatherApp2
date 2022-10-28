@@ -24,3 +24,13 @@ body{
     padding: 2em;
     background-color: #eaeaea;
 }
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+}
