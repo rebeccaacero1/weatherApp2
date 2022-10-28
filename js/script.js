@@ -24,5 +24,6 @@ let weather = {
         const{temp, humidity} = data.main;
         const{speed} = data.wind;
         console.log(name, icon, description, temp, humidity, speed);
+        document.querySelector('.city').innerText="weather in " + name;
     }
 }
