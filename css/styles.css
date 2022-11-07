@@ -7,14 +7,14 @@
 }
 
 body{
-    justify-content: center;
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #777;
     font-family: 'Open Sans', sans-serif;
-    background-image: url('');
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
 
 }
 
@@ -57,9 +57,9 @@ input{
     font-family: inherit;
     width: calc(100% -90px);
 }
-h2.temp{
+h1.temp{
     margin: 0;
-    margin-bottom: 0.3em;
+    margin-bottom: .3em;
 }
 .flex{
     display: flex;
@@ -68,8 +68,17 @@ h2.temp{
 .description{
     text-transform: capitalize;
 }
-/* .weather.loading{
+.weather.loading{
     visibility: hidden;
     max-height: 20px;
     position: relative;
-} */
+}
+
+.weather.loading::after{
+    visibility:visible;
+    content: "loading...";
+    color:green;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
